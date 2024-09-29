@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">FIFO_simulador</string>
+    <string name="tittle_home">Simulador de planificación FIFO</string>
+    <string name="ingresar_proceso">Ingresar Nuevo Proceso</string>
+    <string name="nombre_proceso">Nombre del Proceso</string>
+    <string name="ejemplo_nombre_proceso">ej: whatsapp</string>
+    <string name="tiempo_ejecucion">Tiempo de Ejecución</string>
+    <string name="ejemplo_tiempo_ejecucion">5.0</string>
+    <string name="agregar_proceso">Agregar Proceso</string>
+    <string name="iniciar_simulacion">Iniciar Simulación</string>
+
+    <string name="cola_proceso">Cola de Procesos (FIFO)</string>
+
+</resources>
