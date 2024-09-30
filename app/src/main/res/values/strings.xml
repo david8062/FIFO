@@ -8,7 +8,11 @@
     <string name="ejemplo_tiempo_ejecucion">5.0</string>
     <string name="agregar_proceso">Agregar Proceso</string>
     <string name="iniciar_simulacion">Iniciar Simulación</string>
+    <string name="tiempo_llegada">Tiempo de LLegada</string>
 
+    <string name="nombre_proceso_list">Proceso</string>
+    <string name="tiempo_proceso">Tiempo</string>
+    <string name="estado_proceso">Estado</string>
     <string name="cola_proceso">Cola de Procesos (FIFO)</string>
 
 </resources>

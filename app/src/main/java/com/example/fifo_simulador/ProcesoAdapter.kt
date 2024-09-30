@@ -11,6 +11,7 @@ class ProcesoAdapter(private val procesos: List<MainModel>) : RecyclerView.Adapt
         val textViewNombre: TextView = itemView.findViewById(R.id.textViewNombre)
         val textViewTiempo: TextView = itemView.findViewById(R.id.textViewTiempo)
         val textViewEstado: TextView = itemView.findViewById(R.id.textViewEstado)
+        val textViewLlegada: TextView = itemView.findViewById(R.id.textViewLlegada)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ProcesoViewHolder {
@@ -20,9 +21,10 @@ class ProcesoAdapter(private val procesos: List<MainModel>) : RecyclerView.Adapt
 
     override fun onBindViewHolder(holder: ProcesoViewHolder, position: Int) {
         val proceso = procesos[position]
-        holder.textViewNombre.text = proceso.nombreProceso
+        holder.textViewNombre.text = proceso.nombre
         holder.textViewTiempo.text = proceso.tiempoEjecucion.toString()
         holder.textViewEstado.text = "Pendiente"
+        holder.textViewLlegada.text = proceso.tiempoLlegada.toString()
     }
 
     override fun getItemCount(): Int {

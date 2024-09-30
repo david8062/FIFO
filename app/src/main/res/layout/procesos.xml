@@ -10,7 +10,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="Nombre Proceso"
+        android:text="@string/nombre_proceso_list"
         android:gravity="center"/>
 
     <TextView
@@ -18,7 +18,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="Tiempo"
+        android:text="@string/tiempo_proceso"
         android:gravity="center"/>
 
     <TextView
@@ -26,6 +26,15 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="Estado"
+        android:textColor="@color/text_color_estado"
+        android:text="@string/estado_proceso"
         android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textViewLlegada"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/tiempo_llegada"
+    android:gravity="center"/>
 </LinearLayout>

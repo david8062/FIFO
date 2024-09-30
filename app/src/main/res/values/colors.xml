@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="background_app">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="background_app">#06144E</color>
+    <color name="gradient_uno">#1B89D5</color>
+    <color name="gradient_dos">#543DDD</color>
+    <color name="text_color">#DDDFE8</color>
+    <color name="hint_color">#838383</color>
+    <color name="gradient_text_uno">#f54be7</color>
+    <color name="gradient_text_dos">#4986e0</color>
+    <color name="gradient_text_tres">#4986e0</color>
+    <color name="text_color_estado">#BC3838</color>
 </resources>

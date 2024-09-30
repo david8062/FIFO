@@ -1,8 +1,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.FIFO_simulador" parent="Theme.AppCompat.Light.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:windowBackground">@color/background_app</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textColorHint">@color/hint_color</item>
     </style>
 
     <style name="Theme.FIFO_simulador" parent="Base.Theme.FIFO_simulador" />
