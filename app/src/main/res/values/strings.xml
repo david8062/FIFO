@@ -14,5 +14,38 @@
     <string name="tiempo_proceso">Tiempo</string>
     <string name="estado_proceso">Estado</string>
     <string name="cola_proceso">Cola de Procesos (FIFO)</string>
+    <string name="FIFO_descripcion">Definición: El algoritmo de planificación FIFO (First In, First Out) es uno de los más simples utilizados en la planificación de procesos en un sistema operativo. En este algoritmo, el proceso que llega primero es el primero en ser ejecutado. No se toma en cuenta la duración del proceso, solo el orden de llegada. Funcionamiento del algoritmo: Orden de llegada: Los procesos se encolan en el orden en que llegan al sistema. Ejecución: El primer proceso en la cola se ejecuta hasta que termine, sin ser interrumpido. Siguiente proceso: Una vez que el primer proceso termina, el siguiente en la cola comienza su ejecución. Tiempo de espera: El tiempo de espera es mayor para los procesos que llegan más tarde, ya que deben esperar a que todos los procesos anteriores terminen su ejecución.</string>
+    <string name="FIFO_formulas">Tiempo de Finalización (TFT):\n
+Es el tiempo en el que un proceso termina su ejecución.\n
+TFT= TInicio + TiempoEjecución\n\n
+
+Tiempo de Espera (TE):\n
+Es el tiempo que un proceso espera en la cola antes de ser ejecutado.\n
+TE= TFT−TiempoLlegada−TiempoEjecución\n\n
+
+Tiempo de Retorno (TR):\n
+Es el tiempo total que un proceso permanece en el sistema, desde su llegada hasta su finalización.\n
+TR=TFT−TiempoLlegada\n\n
+
+Tiempo de Respuesta (TRes):\n
+Es el tiempo desde que un proceso llega al sistema hasta que comienza su ejecución.\n
+TRes=TInicioEjecución−TiempoLlegada.</string>
+    <string name="ejemplo">Consideremos tres procesos:\n
+P1: Tiempo de llegada = 0, Tiempo de ejecución = 5\n
+P2: Tiempo de llegada = 2, Tiempo de ejecución = 3\n
+P3: Tiempo de llegada = 4, Tiempo de ejecución = 2\n\n
+
+Paso 1: Orden de Ejecución (FIFO)\n
+Los procesos se ejecutan en el orden de llegada:\n
+P1 comienza en el tiempo 0.\n
+P2 comienza una vez que P1 termina.\n
+P3 comienza después de P2.\n\n
+
+Paso 2: Cálculo del Tiempo de Finalización\n
+P1 finaliza en el tiempo 5.\n
+P2 finaliza en el tiempo 8.\n
+P3 finaliza en el tiempo 10.</string>
+
+
 
 </resources>
